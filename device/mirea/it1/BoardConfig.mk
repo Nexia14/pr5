@@ -13,8 +13,8 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Kernel
-TARGET_KERNEL_SOURCE := ernel/htc/sdm845
-TARGET_KERNEL_CONFIG := lineage_ocn_defconfig
+TARGET_KERNEL_SOURCE := kernel/mirea/it1
+TARGET_KERNEL_CONFIG := it_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
